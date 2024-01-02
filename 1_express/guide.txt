@@ -1,0 +1,18 @@
+npm init
+
+npm init -y : y -> yes to all
+
+In package.json:
+in scripts add:
+"start" : "node index.js" - npm run start
+
+Ctrl + C - close server
+
+To dynamically accept port no - install dotenv package
+create .env
+specify port no in this file
+process.env.PORT
+
+.gitignore
+these files will not be pushed on github
+
